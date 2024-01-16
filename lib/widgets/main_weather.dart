@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:weatherz_appz/provider/weatherProvider.dart';
+import 'package:weatherz_appz/provider/weather_provider.dart';
 
 class MainWeather extends StatelessWidget {
   final TextStyle _style1 = const TextStyle(

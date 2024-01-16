@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import './provider/weatherProvider.dart';
-import 'screens/homeScreen.dart';
+import 'package:weatherz_appz/Screens/home_screen.dart';
+import 'provider/weather_provider.dart';
 
 void main() {
   runApp(
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
           colorScheme:
               ColorScheme.fromSwatch().copyWith(secondary: Colors.white),
         ),
-        home: HomeScreen(),
+        home: const HomeScreen(),
       ),
     );
   }

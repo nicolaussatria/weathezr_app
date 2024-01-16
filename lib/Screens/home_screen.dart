@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import '../provider/weatherProvider.dart';
-
-import '../widgets/locationError.dart';
-import '../widgets/mainWeather.dart';
-import '../widgets/requestError.dart';
-
-import '../widgets/weatherDetail.dart';
+import 'package:weatherz_appz/provider/weather_provider.dart';
+import 'package:weatherz_appz/widgets/location_error.dart';
+import 'package:weatherz_appz/widgets/main_weather.dart';
+import 'package:weatherz_appz/widgets/request_error.dart';
+import 'package:weatherz_appz/widgets/weather_detail.dart';
 
 class HomeScreen extends StatefulWidget {
   static const routeName = '/homeScreen';
 
   const HomeScreen({super.key});
   @override
+  // _CotizacionScreenState createState() => _CotizacionScreenState();
+  // State<CotizacionScreen> createState() => _CotizacionScreenState();
   _HomeScreenState createState() => _HomeScreenState();
 }
 

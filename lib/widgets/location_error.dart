@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import '../provider/weatherProvider.dart';
+import 'package:weatherz_appz/provider/weather_provider.dart';
 
 class LocationError extends StatefulWidget {
   const LocationError({super.key});
